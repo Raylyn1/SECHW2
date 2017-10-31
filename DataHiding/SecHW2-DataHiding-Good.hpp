@@ -6,22 +6,22 @@ using namespace std;
 class Person {
 private:
 	string name;
-	int phone;
+	int ID;
 
 public:
 	void printName();
 	void setName(string);
-	void setPhone(int);
+	void setID();
 };
 
 void Person::printName(){
-	cout << name << endl;
+	cout << name;
 }
 
 void Person::setName(string Name) {
 	name = Name;
 }
 
-void Person::setPhone(int Phone) {
-	phone = Phone;
+void Person::setID() {
+	ID = rand();
 }
