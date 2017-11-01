@@ -1,3 +1,3 @@
-# Abstraction
+# Simplicity
 ## Good Code
 ## Bad Code
